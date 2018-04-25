@@ -14,12 +14,12 @@ Cameras are taken from the site: https://radiusvision.com/live-cameras-demo-clip
 
 Platform - .NET Framework 4.7, WPF.
 
-> This project is a demo solution as a technical assignment for 3dEYE
-> The project also contains unit tests. But they are very simple and are whipped up
+> This project is a demo solution as a technical assignment for 3dEYE.
+> The project also contains unit tests. But they are very simple and are whipped up.
 
 ## Usage
 
-On the left is a tree of cameras grouped by location. On the right - a list of cameras that work in real time.
+On the left is a tree of cameras grouped by location. Double-click on the item in the tree on the left to add a camera. On the right - a list of cameras that work in real time. 
 ![N|Solid](https://pp.userapi.com/c824601/v824601886/120546/DgDJmOUKNHw.jpg)
 
 ## License
