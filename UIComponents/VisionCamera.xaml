@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WpfApp3.UIComponents.VisionCamera"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp3.UIComponents"
+             mc:Ignorable="d" 
+             d:DesignHeight="570" d:DesignWidth="500">
+	<Grid>
+		<ListBox x:Name="listBox" Background="#FF2D2D30" BorderThickness="0">
+
+			<ListBox.ItemsPanel>
+
+				<ItemsPanelTemplate>
+
+					<StackPanel Orientation="Horizontal"/>
+
+				</ItemsPanelTemplate>
+
+			</ListBox.ItemsPanel>
+		</ListBox>
+	</Grid>
+</UserControl>

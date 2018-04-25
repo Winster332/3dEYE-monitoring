@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        xmlns:ui="clr-namespace:WpfApp3.UIComponents" 
+        mc:Ignorable="d"
+		Loaded="Window_Loaded"
+		Style="{StaticResource MyWindowStyle}"
+        Title="MainWindow" Height="330" Width="760" Background="#CCC" ResizeMode="NoResize">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="200" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<Grid Grid.Column="1">
+			<ui:VisionCamera x:Name="visionCamera"/>
+		</Grid>
+		<Grid Grid.Column="0">
+			<ui:TreeCameras x:Name="treeCameras"/>
+		</Grid>
+	</Grid>
+</Window>
