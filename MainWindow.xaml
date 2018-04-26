@@ -8,7 +8,7 @@
         mc:Ignorable="d"
 		Loaded="Window_Loaded"
 		Style="{StaticResource MyWindowStyle}"
-        Title="MainWindow" Height="330" Width="760" Background="#CCC" ResizeMode="NoResize">
+        Title="RV Cameras" Height="330" Width="760" Background="#CCC" ResizeMode="NoResize">
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="200" />
