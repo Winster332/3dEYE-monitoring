@@ -115,7 +115,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RadiusVision\RadiusVision.csproj">
+    <ProjectReference Include="RadiusVision\RadiusVision.csproj">
       <Project>{73e9212d-78b6-4ddc-9202-4db66a4f89a7}</Project>
       <Name>RadiusVision</Name>
     </ProjectReference>

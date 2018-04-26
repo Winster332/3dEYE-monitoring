@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3", "WpfApp3.csproj", "{54E1D6BB-A077-473E-AD15-579179BC7F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadiusVision", "..\RadiusVision\RadiusVision.csproj", "{73E9212D-78B6-4DDC-9202-4DB66A4F89A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadiusVision", "RadiusVision\RadiusVision.csproj", "{73E9212D-78B6-4DDC-9202-4DB66A4F89A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadiusVision.BddTests", "RadiusVision.BddTests\RadiusVision.BddTests.csproj", "{416D7070-AA63-40BD-AC70-3868207E5369}"
 EndProject
